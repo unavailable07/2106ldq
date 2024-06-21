@@ -1,0 +1,26 @@
+.bg-light-blue {
+    background-color: lightblue;
+}
+.contents {
+    text-align: center;
+}
+.con-text {
+    width: 40vw;
+    background-color: white;
+    border-radius: 10px;
+}
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .con-text {
+        width: 80vw;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .con-text {
+        width: 40vw;
+    }
+}
